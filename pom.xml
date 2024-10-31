@@ -74,7 +74,11 @@
     <groupId>com.fasterxml.jackson.dataformat</groupId>
     <artifactId>jackson-dataformat-xml</artifactId>
 </dependency>
-
+<dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-jaxb</artifactId>
+            <version>3.0.3</version> <!-- Use a version compatible with your project -->
+        </dependency>
 	</dependencies>
 
 	<build>
